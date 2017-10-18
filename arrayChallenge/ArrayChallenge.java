@@ -1,3 +1,5 @@
+package arrayChallenge;
+
 import java.util.Scanner;
 
 public class ArrayChallenge {
