@@ -20,13 +20,28 @@ Boat/Plane/Car whatever.
 
 public class baseBallTeam {
 
+    private Balls newBall;
+    private Bats newBats;
 
 
+    public baseBallTeam(Balls newBall, Bats newBats) {
+        this.newBall = newBall;
+        this.newBats = newBats;
+    }
 
+    public Balls getNewBall() {
+        return newBall;
+    }
 
+    public void setNewBall(Balls newBall) {
+        this.newBall = newBall;
+    }
 
+    public Bats getNewBats() {
+        return newBats;
+    }
 
-
-
-
+    public void setNewBats(Bats newBats) {
+        this.newBats = newBats;
+    }
 }
