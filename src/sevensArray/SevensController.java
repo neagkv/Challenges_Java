@@ -1,4 +1,4 @@
-package sevensArray;
+package src.sevensArray;
 
 public class SevensController {
 

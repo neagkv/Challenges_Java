@@ -1,4 +1,4 @@
-package reverseArgs;
+package src.reverseArgs;
 
 public class ReverseArgs {
 

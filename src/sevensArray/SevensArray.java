@@ -1,4 +1,4 @@
-package sevensArray;
+package src.sevensArray;
 
     /* Challenge #2)
 if you want another one:

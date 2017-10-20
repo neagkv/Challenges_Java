@@ -1,6 +1,4 @@
-package arrayChallenge;
-
-import java.util.Scanner;
+package src.arrayChallenge;
 
 public class ArrayChallenge {
 

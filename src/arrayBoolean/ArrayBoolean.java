@@ -1,4 +1,4 @@
-package arrayBoolean;
+package src.arrayBoolean;
 
 public class ArrayBoolean {
 
