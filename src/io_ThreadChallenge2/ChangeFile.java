@@ -4,7 +4,7 @@ package src.io_ThreadChallenge2;
 //create a csv file
 //copy it from csv to five different threads and replace all a's with capital A's.
 //use bufferreader to split it into an array and change the second column go from 1 to 100
-//insert :) into every 5th sport
+
 
 
 
@@ -41,13 +41,14 @@ public class ChangeFile implements Runnable {
 
         try {
             BufferedReader br = new BufferedReader(new FileReader(readFrom));
-            FileOutputStream fout = new FileOutputStream(writeTo);
+            BufferedWriter bw = new BufferedWriter(new FileWriter(writeTo));
 
                 do {
                     i = br.read();
+                    System.out.println(i);
                     if (i == 'a') i = 'A';
 
-                    if (i != -1) fout.write(i);
+                    if (i != -1) bw.write(i);
                 } while (i != -1);
 
 
