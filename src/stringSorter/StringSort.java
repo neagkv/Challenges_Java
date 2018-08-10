@@ -4,6 +4,8 @@ package src.stringSorter;
  * @author Kevin Neag
  */
 
+import java.util.ArrayList;
+
 /**
  * Create a method that organizes that organizes a series of given string arrays both alphabetically and numerically.
  * Expected output:
@@ -34,7 +36,28 @@ public class StringSort {
         String seven = "XZZ123 BZ";
         String eight = "ABC111AB";
 
-        String [] strings = new String[]{one,two,three,four,five,six,seven,eight};
+        ArrayList<String> fullStrings = new ArrayList<String>();
+        fullStrings.add(one);
+        fullStrings.add(two);
+        fullStrings.add(three);
+        fullStrings.add(four);
+        fullStrings.add(five);
+        fullStrings.add(six);
+        fullStrings.add(seven);
+        fullStrings.add(eight);
+
+        ArrayList<String> firstPartString = new ArrayList<String>();
+
+        for (String fullString: fullStrings){
+
+            firstPartString.add(fullString.substring(0,3));
+
+        }
+
+        System.out.println(firstPartString.toString());
+
+
+
 
 
 
