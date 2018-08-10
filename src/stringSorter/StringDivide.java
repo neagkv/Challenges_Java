@@ -2,43 +2,44 @@ package src.stringSorter;
 
 public class StringDivide {
 
-    String first;
+    String[] first;
 
-    String second;
+    String[] second;
 
-    String third;
+    String[] third;
 
 
     public StringDivide() {
     }
 
-    public StringDivide(String first, String second, String third) {
+    public StringDivide(String[] first, String[] second, String[] third) {
         this.first = first;
         this.second = second;
         this.third = third;
     }
 
-    public String getFirst() {
+    public String[] getFirst() {
         return first;
     }
 
-    public void setFirst(String first) {
+    public void setFirst(String[] first) {
         this.first = first;
     }
 
-    public String getSecond() {
+    public String[] getSecond() {
         return second;
     }
 
-    public void setSecond(String second) {
+    public void setSecond(String[] second) {
         this.second = second;
     }
 
-    public String getThird() {
+    public String[] getThird() {
         return third;
     }
 
-    public void setThird(String third) {
+    public void setThird(String[] third) {
         this.third = third;
     }
+
 }
