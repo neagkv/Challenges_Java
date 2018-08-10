@@ -30,8 +30,8 @@ public class StringSort {
         for( String string : strings) {
 
             String [] firstArray = new String[8];
-//            String [] secondArray = new String[8];
-//            String [] thirdArray = new String[8];
+            String [] secondArray = new String[8];
+            String [] thirdArray = new String[8];
 
             stringDivide.setFirst(string.substring(0,3));
 
