@@ -25,7 +25,6 @@ public class StringSort {
 
     public static void main(String[] args) {
 
-        StringDivide stringDivide = new StringDivide();
 
         String one = "ABC123AB";
         String two = "ABC234XY";
@@ -46,15 +45,11 @@ public class StringSort {
         fullStrings.add(seven);
         fullStrings.add(eight);
 
-        ArrayList<String> firstPartString = new ArrayList<String>();
+        //sorts the strings alphabetically
+        fullStrings.sort(String::compareToIgnoreCase);
 
-        for (String fullString: fullStrings){
 
-            firstPartString.add(fullString.substring(0,3));
 
-        }
-
-        System.out.println(firstPartString.toString());
 
 
 
